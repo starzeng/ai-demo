@@ -1,0 +1,41 @@
+spring:
+
+  # AI配置
+  ai:
+    dashscope:
+      api-key: sk-c3285607c4b04a5d9ee362a8e0709371
+      chat:
+        options:
+          model: qwen3-235b-a22b
+          top-p: 0.7
+          temperature: 0.3
+    memory:
+      # redis
+      redis:
+        host: localhost
+        port: 6379
+        password:
+        timeout: 5000
+      repository:
+        jdbc:
+          # mysql
+          mysql:
+            driver-class-name: com.mysql.cj.jdbc.Driver
+            url: jdbc:mysql://localhost:3306/ai-demo?useUnicode=true&characterEncoding=UTF-8
+            username: root
+            password: 123456
+
+
+# 日志
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: debug
+
+
+
+
+
+
+
+
+
