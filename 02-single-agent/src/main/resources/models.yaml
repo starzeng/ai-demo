@@ -1,0 +1,36 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+dashScope:
+  - name: deepseek-v3
+    description: "DeepSeek-V3 为自研 MoE 模型，671B 参数，激活 37B，在 14.8T token 上进行了预训练，在长文本、代码、数学、百科、中文 能力上表现优秀。"
+  - name: qwen3-235b-a22b
+    description: "实现思考模式和非思考模式的有效融合，可在对话中切换模式。推理能力显著超过QwQ、通用能力显著超过Qwen2.5-72B-Instruct，达到同规模业界SOTA水平。"
+  - name: qwen-plus-2025-07-14
+    description: "Qwen3系列Plus模型，实现思考模式和非思考模式的有效融合，可在对话中切换模式。此版本为2025年7月14日快照模型，相较上个版本在非thinking模式下中英文能力均有大幅提升，工具调用能力专项增强。"
+#   - name: deepseek-r1
+#     description: "包含 671B 参数，激活 37B，在后训练阶段大规模使用了强化学习技术，在仅有极少标注数据的情况下，极大提升了模型推理能力，尤其在数学、代码、自然语言推理等任务上"
+#   - name: deepseek-v3
+#     description: "MoE 模型，671B 参数，激活 37B，在 14.8T Token 上进行了预训练，在长文本、代码、数学、百科、中文能力上表现优秀"
+#   - name: qwen-plus
+#     description: "效果、速度、成本均衡"
+#   - name: qwen-turbo
+#     description: "适合简单任务，速度快、成本极低"
+#   - name: qwen-max
+#     description: "适合复杂任务，推理能力最强"
+#   - name: qwen-long
+#     description: "适合大规模文本分析，效果与速度均衡、成本较低"
