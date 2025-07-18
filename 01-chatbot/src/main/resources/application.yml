@@ -3,7 +3,7 @@ spring:
   # AI配置
   ai:
     dashscope:
-      api-key: sk-c3285607c4b04a5d9ee362a8e0709371
+      api-key: ${AI_DASHSCOPE_API_KEY}
       chat:
         options:
           model: qwen3-235b-a22b
